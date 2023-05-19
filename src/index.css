@@ -1,0 +1,15 @@
+:root {
+    --primary-color: #000;
+    --secondary-color: #fff;
+}
+
+body {
+    background-color: var(--primary-color) ;
+    font-family: sans-serif ;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1280px;
+    min-width: 720px;
+}

@@ -1,0 +1,40 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  .logo {
+    display: flex;
+    align-items: center;
+
+    img {
+      margin-right: 20px;
+    }
+
+    p {
+      color: cornflowerblue;
+      font-size: 24px;
+      font-weight: 600;
+    }
+
+  }
+
+  .rightBlock {
+    display: flex;
+    align-items: center;
+
+    p {
+      margin-left: 10px;
+      color: white;
+      background: dimgray;
+      border-radius: 7px;
+      width: 170px;
+      padding: 5px 20px;
+      box-sizing: border-box;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      cursor: pointer;
+    }
+  }
+}
